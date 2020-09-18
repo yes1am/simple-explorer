@@ -10,7 +10,7 @@ Only view the directories or files you care about.
 
 ## Easy to add or remove
 
-![新增或删除](https://raw.githubusercontent.com/yes1am/PicBed/master/img/20200918200613.png)
+<img src="https://raw.githubusercontent.com/yes1am/PicBed/master/img/20200918200613.png" height="400" />
 
 1. you can **right click** on directories or files, to add (*添加到 Simeple Explorer*) or remove (*从 Simple Explorer 移除*) item from list.
 2. reload the extension to make it work.
