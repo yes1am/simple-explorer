@@ -2,7 +2,7 @@
 	"name": "simple-explorer",
 	"displayName": "Simple Explorer",
 	"description": "Only view the directories or files you care about",
-	"version": "0.0.3",
+	"version": "0.0.4",
 	"publisher": "songjp",
 	"engines": {
 		"vscode": "^1.49.0"
