@@ -43,7 +43,7 @@ async function activate(context) {
 	const isExistConfig = await exists(configFilePath);
 	if(!isExistConfig) {
 		if(!isExistVscode) {
-			await mkdir(path.join(projectRootPath, '.vscode'));
+			await mkdir(configFolderPath);
 		}
 		await writeFile(configFilePath, defaultConfigContent);
 	} else {
