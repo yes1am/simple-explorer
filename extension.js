@@ -34,7 +34,7 @@ async function activate(context) {
 	// projectRootPath: 项目目录，如 /Users/jianpingsong/songjp/mine/automator
 	// project： workspaceFolders 对象, 包含 { name, index, uri }
 	const { name: projectName, uri } = workspaceFolder;
-	const { path: projectRootPath } = uri;
+	const { fsPath: projectRootPath } = uri;
 
 	const configFolderPath = path.join(projectRootPath, config.configFolder);
 	const configFilePath = path.join(projectRootPath, config.configFolder, config.configFile);
