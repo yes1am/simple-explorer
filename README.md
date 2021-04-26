@@ -14,3 +14,11 @@ Only view the directories or files you care about.
 
 1. you can **right click** on directories or files, to add (*添加到 Simeple Explorer*) or remove (*从 Simple Explorer 移除*) item from list.
 2. reload the extension to make it work.
+
+## Log
+
+I added some console.log for debugging purposes, you can click `Help` => `Toggle Developer Tools` in the VSCode. you will see something like this:
+
+![image](https://user-images.githubusercontent.com/25051945/116089635-a6b42200-a6d5-11eb-83c7-5f75f5d2ccbf.png)
+
+the log means, the config is `/Users/songjp/fe/mime/learn-lerna/node_modules/babel-core`,The file that is currently being looped is `/Users/songjp/fe/mime/learn-lerna/package.json`, so `/Users/songjp/fe/mime/learn-lerna/package.json` wont be shown.
