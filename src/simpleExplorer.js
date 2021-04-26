@@ -21,6 +21,10 @@ const {
 } = require('./fileStat');
 
 const isExistInConfigFiles = (configFiles, path) => {
+	console.log('############# SIMPLE EXPLORER DEBUG START #################');
+	console.log('[The config is]:', configFiles )
+	console.log('[The filepath is]:', path)
+	console.log('############# SIMPLE EXPLORER DEBUG END #################');
   return configFiles.find(item => item.startsWith(path) || path.startsWith(item));
 };
 
