@@ -1,6 +1,6 @@
 # Simple Explorer
 
-Only view the directories or files you care about.
+Only view the directories or files you care about. [VSCode Marketplace Link](https://marketplace.visualstudio.com/items?itemName=songjp.simple-explorer)
 
 ![效果图](https://raw.githubusercontent.com/yes1am/PicBed/master/img/%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_e9976a32-8093-4e99-88ae-a77a13463b2b.png)
 
